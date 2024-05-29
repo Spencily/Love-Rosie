@@ -76,14 +76,14 @@ header {
 }
 
 .logo {
-   background: url("../images/rosie.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   min-height: 360px;
-   transition: all .5s ease-in-out;
-   -moz-transition: all .5s ease-in-out;
-   -webkit-transition: all .5s ease-in-out;
+    background: url("../images/rosie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .name {
@@ -111,13 +111,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -127,10 +127,10 @@ header {
 }
 
 .menuitem a {
-    width:100%;
+    width: 100%;
     text-decoration: none;
     color: #fff;
-    height:120px;
+    height: 120px;
 }
 
 .menuitem a i {
@@ -160,7 +160,7 @@ header {
 /* Footer */
 footer {
     background-color: #525252;
-    color:#fafafa;
+    color: #fafafa;
     min-height: 120px;
     margin: 0;
 }
@@ -250,4 +250,24 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+/* Skills */
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 12px 30px 12px 15px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.process-section {
+    margin: 40px 20px;
 }
